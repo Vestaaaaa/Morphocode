@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jolly+Lodger&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Morphocode</title>
+  </head>
+  <body>
+    <div class="full-app-container">
+      <div class="header">
+        <div class="logo"><h2>MORPHOCODE</h2></div>
+        <div class="components-header">
+          <p>Academy</p>
+          <p>Blog</p>
+          <p>Work</p>
+          <p>Contact</p>
+          <p>About</p>
+        </div>
+      </div>
+      <section class="section1">
+        <div class="container1-s1">
+          <h1 class="heading-page">
+            Exploring cities through data analysis and visualization
+          </h1>
+          <p class="paragraph-page">
+            Morphocode is a design and development firm that uses data to
+            visualize urban dynamics and provide location insights. Our team
+            brings together expertise across architecture, urban planning, and
+            software engineering.
+          </p>
+        </div>
+        <div class="container2-s1">
+          <img
+            alt="photo"
+            class="photo-s1"
+            src="https://s3-alpha-sig.figma.com/img/9a86/816e/f88cac50e99574bc808e72f163d6cfb5?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WSSOl6onRp5w7715Z5n0D51ZLKZVRw6iOMzg4TdOMfQ~PSLUlrv077Zy9mf6YNOH7ssKnR66kauoPg7nEy1oQ0octxyGQiM1g69z720~JHZSweHkiXRkVEx3Xxzpfq6CG8qTzp97uRY9Pn4jC8c2CIbDtbvM3PZprqJRroaiQrQNthuQCP6Mlv3QPA7MQ38aFH7MdixcuBG-CUgv3Nvmp7KGmUjDJ6Hb2X1Nal9oyoxNYQ2q1wydgITd5r2HeaZ96q4M9EreHPPtcSbeQ3f0G4LCG3EbkcFpg0ntCifpri8Xls5QBjKVlPFAzXrG--z9uLjnsDfQmk4jbOtwEzkrvA__"
+          />
+        </div>
+      </section>
+
+      <section class="section2">
+        <div class="container1-s2">
+          <img
+            alt="photo"
+            class="photo-s2"
+            src="https://s3-alpha-sig.figma.com/img/ecc1/9823/50d8d1c57c16c67c63150982c74f7f52?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ird206ijhnzgd3oP8EOPEPnYAGlaeXUalXvm-GnZ74sLnbLD11mR0IxBZI3warHndjfLTaLQvDztH9hXBQ0U51v90cngBQTlfTDYkyHaTlk8TpfH~~iys626J3KPufkYeFA9Gzq1qaoy5XnS6xt9XnoTVmveFw9I4gMSyrFgGPHSNuLQoHlpGMByLWsuh7O4~JBZUqepwxzkc3ZeCpDjx~IZ4TEN0RBoZ1eBfQln-ZvY4gRSX4IvC5CgCfsjil1lLvnfH31R2B-1gFVJ7OKkGu0HUARZg19VvHY8712-oVJXE9btCa3995QDp9Fi0Cvh0ee~mrSxegfKyifjw5gqXQ__"
+          />
+        </div>
+        <div class="container2-s2">
+          <h1 class="heading-page-s2">We research, design, and develop</h1>
+          <p class="paragraph-page-s2">
+            Our portfolio ranges from interactive web maps and information
+            graphics to custom software tools for data analysis and
+            visualization.
+          </p>
+          <p class="p-blue-button">View Projects</p>
+        </div>
+      </section>
+
+      <section class="section3">
+        <div class="container1-s3">
+          <h1 class="heading-page-s3" class="section3">Start Learning</h1>
+          <p class="paragraph-page-s3">
+            Get the latest articles, tutorials, and free resources from
+            Morphocode
+          </p>
+        </div>
+        <div class="email-input-container">
+          <input
+            type="email"
+            class="email-input"
+            placeholder="Enter your email"
+          />
+          <button class="subscribe-button" onclick="subscribe()">
+            Subscribe
+          </button>
+        </div>
+      </section>
+      <div class="popup" id="popup" style="display: none">
+        <div class="window-text">
+          <span>You are successfully subscribed!</span>
+        </div>
+        <div class="container-window-button">
+          <button onclick="closePopup()" class="window-button">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

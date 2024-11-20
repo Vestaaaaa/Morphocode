@@ -1,0 +1,297 @@
+body {
+  height: 3618px;
+  margin: 0;
+}
+
+.full-app-container {
+  width: 1300px;
+  height: 1555px;
+  background-color: rgb(255, 249, 249);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: -20px;
+  width: 1300px;
+  height: 72px;
+  background-color: rgb(229, 224, 224);
+}
+
+.components-header p {
+  font-family: "DM Sans", serif;
+}
+
+.heading-page {
+  width: 522px;
+  height: 175px;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58.08px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-family: "DM Sans", serif;
+}
+
+.paragraph-page {
+  font-family: Titillium Web;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-family: "DM Sans", serif;
+}
+
+.logo {
+  width: 180px;
+  height: 60px;
+  font-size: 16px;
+  font-family: "DM Sans", serif;
+  margin-top: 2px;
+  margin-left: -300px;
+}
+
+.components-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 10px;
+  margin-right: -270px;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  width: 1000px;
+  height: 600px;
+  margin-left: 130px;
+}
+
+.container1-s1 {
+  display: flex;
+  flex-direction: column;
+  width: 545px;
+  padding-top: 80px;
+}
+
+.container2-s1 {
+  width: 600px;
+  height: 600px;
+}
+
+.photo-s1 {
+  width: 500px;
+  height: 500px;
+  left: 720px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 70px;
+  width: 1000px;
+  height: 600px;
+  margin-left: 130px;
+}
+
+.container1-s2 {
+  width: 590px;
+  height: 589px;
+}
+
+.photo-s2 {
+  width: 500px;
+  height: 500px;
+}
+
+.container2-s2 {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+}
+
+.heading-page-s2 {
+  width: 522px;
+  height: 175px;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58.08px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-family: "DM Sans", serif;
+}
+
+.paragraph-page-s2 {
+  font-family: Titillium Web;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-family: "DM Sans", serif;
+  margin-top: -40px;
+}
+
+.p-blue-button {
+  color: #1d6ff3;
+  font-family: "DM Sans", serif;
+  font-weight: 600;
+}
+
+.section3 {
+  width: 1300px;
+  height: 282px;
+  background-color: rgb(229, 224, 224);
+}
+
+.container1-s3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading-page-s3 {
+  font-family: "DM Sans", serif;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58.08px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 0px;
+}
+
+.paragraph-page-s3 {
+  font-family: "DM Sans", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 473px;
+  height: 60px;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.email-input-container {
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 420px;
+  height: 50px;
+  margin-top: 90px;
+}
+
+.email-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-right: none; /* убираем правую рамку */
+  width: 250px; /* ширина поля ввода */
+  outline: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.email-input::placeholder {
+  color: #bbb; /* Цвет текста-placeholder */
+}
+
+.subscribe-button {
+  background-color: #1d6ff3; /* Голубой цвет кнопки */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  border-radius: 0 5px 5px 0; /* закругляем правый верхний и нижний угол */
+}
+
+.subscribe-button:hover {
+  background-color: #175ac5; /* Цвет кнопки при наведении */
+}
+
+.popup {
+  display: flex; /* Изначально скрыто */
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 250px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000; /* Высокий индекс для показа сверху */
+}
+
+.popup button {
+  margin-top: 10px;
+  background-color: #1d6ff3;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 200px;
+  height: 65px;
+}
+
+.popup button:hover {
+  background-color: #175ac5;
+}
+
+.window-text {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58.08px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-family: "DM Sans", serif;
+  margin-top: 10px;
+}
+
+.container-window-button {
+  margin-top: 32px;
+  margin-left: 145px;
+  padding-bottom: 15px;
+}
+
+.window-button {
+  font-size: 30px;
+  line-height: 58.08px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-family: "DM Sans", serif;
+}
